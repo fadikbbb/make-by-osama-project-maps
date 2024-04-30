@@ -1,175 +1,521 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" href="Imgs/icons/Logo.svg">
-    <title>Cowork</title>
-</head>
-<body>
-    <main class="container">
-        <!-- Start nav -->
-          <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top row">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="Imgs/icons/Logo.svg" alt=""></a>
-                <div class="btn-both1">
-                    <button type="button" class="btn btn-light">Log In</button>
-                    <button type="button" class="btn btn-dark">Sign Up</button>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Events</a>
-                        </li>
-                    </ul>
-                    <div class="btn-both0">
-                        <button type="button" class="btn btn-light">Log In</button>
-                        <button type="button" class="btn btn-dark">Sign Up</button>
-                    </div>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>osama project</title>
+  </head>
+  <body>
+    <header class="mt-5 mb-5 d-flex justify-content-between container">
+      <div class="logo">
+        <img src="img/Logo.png" alt="" />
+      </div>
+      <nav class="d-flex">
+        <ul class="d-flex">
+          <a class="pe-3" href="#"><li>About</li></a>
+          <a class="pe-3" href="#"><li>Pricing</li></a>
+          <a class="pe-3" href="#"><li>Blog</li></a>
+          <a class="pe-3" href="#"><li>Events</li></a>
+        </ul>
+        <div class="login">
+          <a href="#" class="buttonStyle">Log In</a>
+          <a href="#" class="buttonStyle">Sign Up</a>
+        </div>
+      </nav>
+    </header>
+    <section class="hero container d-flex flex-md-nowrap flex-wrap mt-5 mb-5">
+      <div class="left d-flex flex-column justify-content-center me-5">
+        <h1>Elevate Your Workspace with Cowork</h1>
+        <p>
+          Welcome to Cowork – where innovation meets collaboration in the heart
+          of productivity! Unleash 🚀 your potential in our thoughtfully
+          designed coworking spaces, tailored to inspire creativity and foster
+          connections.
+        </p>
+        <button class="buttonStyle">Claim Your Spot</button>
+      </div>
+      <div class="right w-100">
+        <img src="img/Image.png " class="w-100" alt="" />
+      </div>
+    </section>
+    <section class="company container mt-5">
+      <h6 class="text-center">Trusted by Leading Companies</h6>
+      <div class="d-flex justify-content-between flex-md-nowrap flex-wrap">
+        <img src="img/Logo (1).png" alt="" />
+        <img src="img/Logo (2).png" alt="" />
+        <img src="img/Logo (3).png" alt="" />
+        <img src="img/Logo (4).png" alt="" />
+      </div>
+    </section>
+    <section class="container mt-5 mb-5 whyCowork">
+      <h1 class="fw-bold text-center">
+        Why choose <img src="img/Rectangle 1.png" alt="" /> Cowork?
+      </h1>
+      <div
+        class="cards d-flex flex-md-nowrap flex-wrap justify-content-between"
+      >
+        <div
+          class="card d-flex border-none p-4 flex-column align-items-center justify-content-between"
+        >
+          <img src="img/Vector (1).png" class="m-3" alt="" />
+          <h4>Flexible Spaces</h4>
+          <p class="text-center">
+            Whether you're a solopreneur, startup, or an established enterprise,
+            our flexible office solutions cater to your evolving needs.
+          </p>
+        </div>
+        <div class="card d-flex border-none p-4 flex-column align-items-center">
+          <img src="img/CreditCard.png" class="m-3" alt="" />
+          <h4>Flexible Spaces</h4>
+          <p class="text-center">
+            Whether you're a solopreneur, startup, or an established enterprise,
+            our flexible office solutions cater to your evolving needs.
+          </p>
+        </div>
+        <div class="card d-flex border-none p-4 flex-column align-items-center">
+          <img src="img/Vector (2).png" class="m-3" alt="" />
+          <h4>Flexible Spaces</h4>
+          <p class="text-center">
+            Whether you're a solopreneur, startup, or an established enterprise,
+            our flexible office solutions cater to your evolving needs.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="virtual container mt-5 mb-5 d-flex flex-column align-items-center"
+    >
+      <h6 class="text-center">A Virtual Tour</h6>
+      <h1 class="text-center">
+        Explore Cowork Through Our
+        <img src="img/Rectangle 1 (1).png" alt="" /> lens
+      </h1>
+      <p class="text-center">
+        Experience the essence of Cowork before setting foot in our dynamic
+        spaces. Our immersive video tour gives you a sneak peek into the vibrant
+        atmosphere, cutting-edge facilities, and collaborative energy that
+        define the Cowork experience.
+      </p>
+      <button class="buttonStyle m-5">Explore Spaces</button>
+    </section>
+    <section class="video container mt-5 mb-5">
+      <video class="w-100 border-radius" controls autoplay>
+        <source
+          src="img/Top 10 Best Interior Design Ideas _ Modern and Contemporary Style _ Gabrielle Henares.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </section>
+    <section
+      class="CoworkinNumbers container mt-5 mb-5 d-flex flex-md-nowrap flex-wrap align-items-center"
+    >
+      <div class="left">
+        <h6>Cowork in Numbers</h6>
+        <h1>Transformative Statistics That Speak Volumes</h1>
+        <div class="d-flex flex-wrap mt-3">
+          <div>
+            <h1 class="cricle">240%</h1>
+            <p class="text-muted">Community Growth</p>
+          </div>
+          <div>
+            <h1 class="cricle1">99%</h1>
+            <p class="text-muted">Technology Uptime</p>
+          </div>
+          <div>
+            <h1 class="cricle2">50+</h1>
+            <p class="text-muted">Happy Members</p>
+          </div>
+          <div>
+            <h1 class="cricle3">100%</h1>
+            <p class="text-muted">Renewable Energy Sources</p>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <img class="w-100" src="img/Image1.png" alt="" />
+      </div>
+    </section>
+    <section class="CoworkinWords container mt-5 mb-5">
+      <div class="pcards d-flex flex-wrap justify-content-around">
+        <div class="pcard mt-md-5 mt-2 mb-2 ms-2 me-2">
+          <img src="img/Avatar Image.png" width="60px" alt="" />
+          <p>
+            "The 24/7 access and secure facilities have been incredibly
+            convenient for my team's flexible schedules. We love the coworking
+            space!"
+          </p>
+          <br />
+          <h5>Liam Brown</h5>
+          <p>Software Engineer, TechStartup Innovations</p>
+        </div>
+        <div class="pcard mb-md-5 mb-2 mt-2 ms-2 me-2">
+          <img src="img//Avatar Image (1).png" width="60px" alt="" />
+          <p>
+            “The aesthetics of Cowork are inspiring. The attention to detail in
+            the design creates an atmosphere that sparks creativity. It's a
+            place where ideas flow effortlessly, and collaboration happens
+            organically.”
+          </p>
+          <br />
+          <h5>Michael Rodriguez</h5>
+          <p>Creative Director, DesignCraft Studio</p>
+        </div>
+        <div class="pcard mt-md-5 mt-2 mb-2 ms-2 me-2">
+          <img src="img/Avatar Image (2).png" width="60px" alt="" />
+          <p>
+            "As a freelance designer, I was getting tired of working from home
+            or coffee shops. The coworking space has provided me with a
+            productive and professional environment to focus on my work."
+          </p>
+          <br />
+          <h5>Michael Thompson</h5>
+          <p>Graphic Designer, DesignCo</p>
+        </div>
+        <div class="pcard mb-md-5 mb-2 mt-2 ms-2 me-2">
+          <img src="img/Avatar Image (3).png" width="60px" alt="" />
+          <p>
+            "The flexible membership options and amenities like high-speed
+            internet, printers, and meeting rooms have made this coworking space
+            a perfect fit for my small business."
+          </p>
+          <br />
+          <h5>Alex Nguyen</h5>
+          <p>Marketing Consultant, Maverick Marketing</p>
+        </div>
+        <div class="pcard mb-md-5 mb-2 mt-2 ms-2 me-2">
+          <img src="img/Avatar Image (4).png" width="60px" alt="" />
+          <p>
+            "The coworking space has been a wonderful resource for my team. The
+            open floor plan and dedicated private offices allow us to
+            collaborate and concentrate as needed."
+          </p>
+          <br />
+          <h5>David Wilson</h5>
+          <p>Project Manager, SoftwareSolutions LLC</p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="FrequentlyAskedQuestions container mt-5 mb-5 d-flex flex-md-nowrap flex-wrap"
+    >
+      <div class="left w-50 w-md-50">
+        <h6>Frequently Asked Questions</h6>
+        <h1>Your Roadmap to Coworking Clarity</h1>
+        <p>
+          Frequently asked questions ordered by popularity. Remember that if the
+          visitor has not committed to the call to action, they may still have
+          questions (doubts) that can be answered.
+        </p>
+      </div>
+      <div class="right w-50 w-md-50">
+        <h6 class="fw-bold">How flexible are Cowork's membership plans?</h6>
+        <p>
+          Frequently asked questions ordered by popularity. Remember that if the
+          visitor has not committed to the call to action, they may still have
+          questions (doubts) that can be answered.
+        </p>
+        <div class="accordion border-none" id="accordionExample">
+          <div class="accordion-item border-none">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What kind of events and networking opportunities does Cowork
+                provide?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It's also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
             </div>
-        </nav>
-        
-          <!-- End nav -->
-          <!-- Start Section-1 Home -->
-          <section >
-
-                <div class="Home row">
-                    <div class="left col" data-aos="fade-right" data-aos-duration="1000">
-                        <div class="section-titel">
-                            <h1>Elevate Your Workspace with  <div class="Cowork"><img src="Imgs/icons/Vector 1.png" alt="">Cowork</div></h1>
-                            <p>Welcome to Cowork – where innovation meets collaboration in the heart  of productivity! Unleash 🚀 your potential in our thoughtfully designed coworking spaces, tailored to inspire creativity and foster connections.</p>
-                            
-                        </div>
-                        <div class="active">
-                          <button type="button" class="btn btn-dark">Claim Your Sport</button>
-                        </div>
-                    </div>
-                    <div class="right col" data-aos="fade-left" data-aos-duration="1000">
-                        <div class="Img">
-                            <img src="Imgs/Home-img.png" alt="">
-                        </div>
-                    </div>
-                </div>
-          </section>
-          <!-- End Section-1 Home -->
-          <!-- Start Section-2 Social Proof -->
-          <section class="row d-flex align-items-start flex-column mb-3 " style="height: 120px; margin: 150px auto 150px auto;">
-            <h1 class="mb-auto p-2" style="text-align: center; font-size: 12px;">Trusted by Leading Companies</h1>
-            <div class="content d-flex justify-content-around p-2">
-                <img src="Imgs/icons/prf-log-1.png" alt="" data-aos="zoom-in" data-aos-duration="1000">
-                <img src="Imgs/icons/prf-log-2.png" alt="" data-aos="zoom-in" data-aos-duration="1000">
-                <img src="Imgs/icons/prf-log-3.png" alt="" data-aos="zoom-in" data-aos-duration="1000">
-                <img src="Imgs/icons/prf-log-4.png" alt="" data-aos="zoom-in" data-aos-duration="1000">
-                <img src="Imgs/icons/prf-log-5.png" alt="" data-aos="zoom-in" data-aos-duration="1000">
+          </div>
+          <hr class="w-25" />
+          <div class="accordion-item border-none">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Can I tour the Cowork space before committing to a membership?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
             </div>
-          </section>
-          <!-- End Section-2 Social Proof -->
-          <!-- Start Section-3 Features -->
-          <section class="row"> 
-              <div class="Frame-63 de-flex">
-                  
-                  <h1>Why Choose </h1>
-                  <img src="Imgs/Frame-63.png" alt=".png">
-                  <h1>Cowork? </h1>
-                  
+          </div>
+          <hr class="w-25" />
+          <div class="accordion-item border-none">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Is Cowork suitable for remote teams and distributed workforces?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
               </div>
-              <div class="row">
-                  <div class="col col-me-m "  data-aos="zoom-in" data-aos-duration="1500">
-                      <img  src="/Imgs/Sectoin-3-img-1.png" alt="">
-                      <h3 class="circle-color">Flexible Spaces</h3>
-                      <p>Whether you're a solopreneur, startup, or an established enterprise, our flexible office solutions cater to your evolving needs.</p>
-                  </div>
-                  <div class="col col-me-m"  data-aos="zoom-in" data-aos-duration="1500">
-                      <img  src="/Imgs/Sectoin-3-img-2.png" alt="">
-                      <h3 class="circle-color">Transparent Pricing</h3>
-                      <p>Choose a plan that suits your budget and business objectives, and experience the value of a premium coworking space without breaking the bank.</p>
-                  </div>
-                  <div class="col col-me-m "  data-aos="zoom-in" data-aos-duration="1500">
-                      <img  src="/Imgs/Sectoin-3-img-3.png" alt="">
-                      <h3 class="circle-color">Tailored Memberships</h3>
-                      <p>Whether you prefer the flexibility of a hot desk or the exclusivity of a private office, Cowork offers tailored solutions to suit every working style.</p>
-                  </div>
+            </div>
+          </div>
+          <hr class="w-25" />
+          <div class="accordion-item border-none">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                What measures does Cowork take for environmental sustainability?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
               </div>
-          </section>
-          <!-- End Section-3 Features -->
-          <!-- Start Section-4 Virtual Tour -->
-          <section class="row" style="margin-top: 150px;"  data-aos="zoom-in" data-aos-duration="1500"
-          data-aos="zoom-in" data-aos-duration="1500"
-          data-aos="zoom-in" data-aos-duration="1500">
-              <div class="content4">
-                  <p style="font-weight: bold;">A Virtual Tour</p>
-                  <h1 class="">Explore Cowork Through Our </h1>
-                  <div class="hh">
-                      <img src="Imgs/Sectoin-4-img-1.png" alt="" style="width: 180px;">
-                      <h1>Lens</h1>
-                  </div>
-                  <p style="font-size: 14px;">Experience the essence of Cowork before setting foot in our dynamic spaces. Our immersive video tour gives you a sneak peek into the vibrant atmosphere, cutting-edge facilities, and collaborative energy that define the Cowork experience.</p>
-                  <button type="button" class="btn btn-light">Explore Spaces</button>
+            </div>
+          </div>
+          <hr class="w-25" />
+          <div class="accordion-item border-none">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                Still has questions?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
               </div>
-              <img src="/Imgs/Sectoin-4-img-2.png" alt="" style="margin-bottom: 150px;">
-          </section>
-          <!-- End Section-4 Virtual Tour -->
-          <!-- Start footer -->
-          <footer class="row">
-              <div class="Newsletter col" style="padding: 20px;">
-                  <img src="/Imgs/icons/Logo0.png" alt="" style="color: white;">
-                  <p>Join our newsletter to stay up to date on features and releases.</p>
-                  <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Enter your Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <span class="input-group-text" id="basic-addon2">@example.com</span>
-                  </div>
-                  <button type="button" class="btn btn-light">Subscribe</button>
-              </div>
-              <div class="link col row "style="padding: 20px;">
-                <div class="culomn1 col"  data-aos="zoom-up" data-aos-duration="1000">
-                    <h4>Explore More</h4>
-                    <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Home</a></p>
-                    <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">About</a></p>
-                    <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Pricing</a></p>
-                    <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Blog</a></p>
-                    <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Event</a></p>
-                </div>
-                <div class="culomn2 col"  data-aos="zoom-up" data-aos-duration="1000">
-                    <h4>Stay Connected </h4>
-                    <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Subscribe</a></p>
-                    <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Member Stories</a></p>
-                    <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Location</a></p>
-                    <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Write for Us</a></p>
-                </div>
-                <div class="culomn3 col"  data-aos="zoom-up" data-aos-duration="1000">
-                    <h4>Follow Us</h4>
-                    <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Facbok</a></p>
-                    <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Instgram</a></p>
-                    <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">X</a></p>
-                    <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">LinkedIN</a></p>
-                    <p><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Youtube</a></p>
-                </div>
-              </div>
-          </footer>
-          <!-- End footer -->
-    </main>
-
-    <script src="/JS/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-</body>
+            </div>
+          </div>
+          <hr class="w-25" />
+        </div>
+      </div>
+    </section>
+    <section
+      class="puzzle container mt-5 mb-5 d-flex flex-column align-items-center"
+    >
+      <h1 class="fw-bold size">
+        Seize <img src="img/Rectangle 1 (2).png" alt="" />The Moment – Join
+        Cowork Today!
+      </h1>
+      <p>
+        Uncover the transformative power of Cowork as echoed by those who've
+        made it their professional haven. This is more than finding a desk; it's
+        discovering a community that fuels your journey to success.
+      </p>
+      <button class="buttonStyle">Claim Your Spot</button>
+    </section>
+    <section
+      class="CoworkChronicles container mt-5 mb-5 d-flex flex-column align-items-center"
+    >
+      <h6>Cowork Chronicles</h6>
+      <h1>
+        Insights, Innovation, and
+        <img src="img/Rectangle 1 (3).png" alt="" />Inspiration
+      </h1>
+      <p>
+        Stay updated on the latest trends in coworking, productivity tips, and
+        success stories that define the Cowork experience.
+      </p>
+      <br />
+      <div class="d-flex justify-content-between flex-lg-nowrap flex-wrap">
+        <div class="cardsp d-flex flex-column m-3">
+          <img src="img/Image5.png" class="w-100" alt="" />
+          <br />
+          <div class="d-flex">
+            <h6 class="me-4">Trending</h6>
+            <h6 class="text-muted">7 min read</h6>
+          </div>
+          <h5 class="fw-bold">
+            Navigating the Future: Trends in Modern Coworking Spaces
+          </h5>
+          <a href="#" class="text-muted">
+            read more <img src="img/Vector10.png" alt="" />
+          </a>
+        </div>
+        <div class="cardsp d-flex flex-column m-3">
+          <img src="img/Image4.png" class="w-100" alt="" />
+          <br />
+          <div class="d-flex">
+            <h6 class="me-4">Trending</h6>
+            <h6 class="text-muted">7 min read</h6>
+          </div>
+          <h5 class="fw-bold">
+            Navigating the Future: Trends in Modern Coworking Spaces
+          </h5>
+          <a href="#" class="text-muted">
+            read more <img src="img/Vector10.png" alt="" />
+          </a>
+        </div>
+        <div class="cardsp d-flex flex-column m-3">
+          <img src="img/Image3.png" class="w-100" alt="" />
+          <br />
+          <div class="d-flex">
+            <h6 class="me-4">Trending</h6>
+            <h6 class="text-muted">7 min read</h6>
+          </div>
+          <h5 class="fw-bold">
+            Navigating the Future: Trends in Modern Coworking Spaces
+          </h5>
+          <a href="#" class="text-muted">
+            read more <img src="img/Vector10.png" alt="" />
+          </a>
+        </div>
+      </div>
+      <button class="buttonStyle">View All</button>
+    </section>
+    <footer
+      class="footer container mt-5 mb-5 black d-flex flex-lg-nowrap flex-wrap justify-content-between"
+    >
+      <div>
+        <h1 class="text-white">cowork</h1>
+        <p class="black">
+          Join our newsletter to stay up to date on features and releases.
+        </p>
+        <form action="">
+          <input
+            type="email"
+            class="black"
+            name=""
+            id=""
+            placeholder="Enter your email"
+          />
+          <button type="submit" class="buttonStyle p-0 w-25">Subscribe</button>
+        </form>
+        <br />
+        <p class="black">
+          By subscribing you agree to with our Privacy Policy and provide
+          consent to receive updates from our company.
+        </p>
+      </div>
+      <ul class="m-5">
+        <div class="black fw-bold">Explore More</div>
+        <br />
+        <li class="black">Home</li>
+        <li class="black">About</li>
+        <li class="black">pricing</li>
+        <li class="black">biog</li>
+        <li class="black">events</li>
+      </ul>
+      <ul class="m-5">
+        <div class="black fw-bold">Stay Connected</div>
+        <br />
+        <li class="black">Subscribe</li>
+        <li class="black">Member Stories</li>
+        <li class="black">Locations</li>
+        <li class="black">Write for Us</li>
+      </ul>
+      <ul class="m-5">
+        <div class="black fw-bold">Follow Us</div>
+        <br />
+        <li class="black">Facebook</li>
+        <li class="black">Instagram</li>
+        <li class="black">X</li>
+        <li class="black">LinkedIn</li>
+        <li class="black">Youtube</li>
+      </ul>
+    </footer>
+    <div class="container d-flex justify-content-between">
+      <div>&copy;2024 Cowork. All rights reserved.</div>
+      <ul class="d-flex justify-content-between">
+        <a href="#"><li class=" ms-4"><u>Privacy Policy</u></li></a>
+        <a href="#"><li class=" ms-4"><u>Terms of Service</u></li></a>
+        <a href="#"><li class=" ms-4"><u>Cookies Settings</u></li></a>
+      </ul>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
